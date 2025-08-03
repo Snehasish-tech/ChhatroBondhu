@@ -43,7 +43,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/chhatrobondhu.git
+   git clone https://github.com/Snehasish-tech/ChhatroBondhu
    ```
 
 2. **Navigate to project directory**
