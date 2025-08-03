@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChhatroBondhu - Your Study Companion</title>
+     <link rel="stylesheet" href="style.css">
+
+ <script src="script.js"></script>
+   
+   
+</head>
+<body>
+    <!-- Enhanced Animated background -->
+    <div class="stars"></div>
+    <div class="particles"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">🎓</div>
+            <h1>ChhatroBondhu</h1>
+        </div>
+        
+        <nav class="nav-menu" id="navMenu">
+            <a href="#" class="nav-link active" onclick="showSection('home')">🏠 Home</a>
+            <a href="#" class="nav-link" onclick="showSection('courses')">📚 Courses</a>
+            <a href="#" class="nav-link" onclick="showSection('notes')">📝 Notes</a>
+             <a href="https://marku.netlify.app/" class="nav-link" target="_self">🅼 Marku</a>
+        </nav>
+
+
+    </header>
+
+    <!-- Landing Page -->
+    <div id="home" class="main-content active">
+        <div class="landing">
+            <h2>Your Ultimate Study Companion</h2>
+            <p>ChhatroBondhu – Built by students, for students, to make learning easier and smarter with cutting-edge technology</p>
+           
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Course Library</h3>
+                    <p>Access thousands of courses and tutorials from YouTube and other platforms with smart AI recommendations</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Notes Searching</h3>
+                    <p>Find study notes faster with ChhatroBondhu – Smart search powered by advanced algorithms for smarter learning</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Smart Search</h3>
+                    <p>Find exactly what you need with our AI-powered search and intelligent filtering system</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🅼</div>
+                    <h3>Marku GPA Calculator</h3>
+                    <p>Introducing Marku – A smart GPA calculator built to simplify and speed up your grade calculation with advanced analytics</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Courses Section -->
+    <div id="courses" class="main-content">
+        <div class="search-section">
+            <h2>📚 Course Library</h2>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for courses..." id="courseSearch" onkeyup="searchCourses()">
+                <button class="btn btn-primary" onclick="searchCoursesOnYouTube()">🔍 Search YouTube</button>
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" onclick="filterCourses('all')">All</button>
+                <button class="filter-btn" onclick="filterCourses('math')">Mathematics</button>
+                <button class="filter-btn" onclick="filterCourses('physics')">Physics</button>
+                <button class="filter-btn" onclick="filterCourses('chemistry')">Chemistry</button>
+                <button class="filter-btn" onclick="filterCourses('biology')">Biology</button>
+                <button class="filter-btn" onclick="filterCourses('programming')">Programming</button>
+            </div>
+        </div>
+        
+        <div class="content-grid" id="coursesGrid">
+            <!-- Course cards will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Notes Section -->
+    <div id="notes" class="main-content">
+        <div class="search-section">
+            <h2>📝 Search Notes</h2>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search notes on Google..." id="notesSearch">
+                <button class="btn btn-primary" onclick="searchNotesOnGoogle()">🔍 Search Google</button>
+            </div>
+        </div>
+        
+        <div class="content-grid" id="notesGrid">
+            <!-- Notes will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 ChhatroBondhu • Made with <span class="heart">❤️</span> by Snehasish Dey</p>
+        
+    </footer>
+
+    <!-- Notification -->
+    <div class="notification" id="notification"></div>
+
+   
+</body>
+</html>
