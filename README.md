@@ -126,7 +126,7 @@ ChhatroBondhu is fully responsive and optimized for:
 
 **Snehasish Dey**
 
-- 🌐 Portfolio: []
+- 🌐 Portfolio: [https://snehasish-portfolio3.netlify.app/]
 - 📧 Email: [snehasishdey02@gmail.com]
 - 💼 LinkedIn: [www.linkedin.com/in/snehasish-dey-821b7732a]
 
@@ -148,7 +148,7 @@ ChhatroBondhu is fully responsive and optimized for:
 
 ### 🌟 Star this repo if you found it helpful!
 
-**Made with ❤️ by [Snehasish Dey](https://github.com/yourusername)**
+**Made with ❤️ by [Snehasish Dey](https://github.com/Snehasish-tech)**
 
 *ChhatroBondhu - Empowering students with smart technology*
 
