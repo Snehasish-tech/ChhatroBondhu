@@ -143,7 +143,7 @@
             }
             
             const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(query + ' course tutorial')}`;
-            window.open(youtubeUrl, '_blank');
+            window.open(youtubeUrl, '_self');
             showNotification('🚀 Opening YouTube search in new tab...', 'info');
         }
 
@@ -187,7 +187,7 @@
 
         function watchCourse(youtubeQuery) {
             const youtubeUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(youtubeQuery)}`;
-            window.open(youtubeUrl, '_blank');
+            window.open(youtubeUrl, '_self');
             showNotification('🎬 Opening course on YouTube...', 'success');
         }
 
@@ -204,7 +204,7 @@
             }
 
             const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query + ' study notes filetype:pdf')}`;
-            window.open(searchUrl, '_blank');
+            window.open(searchUrl, '_self');
             showNotification('🔍 Searching Google for study materials...', 'success');
         }
 
